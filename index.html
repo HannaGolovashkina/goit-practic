@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Appello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/stail.css">
+
   </head>
   <body>
-    <header>
-      <a href="./index.html" alt="logo">Appello</a>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Process</a></li>
-        <li><a href="">Team</a></li>
-        <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container header-nav">
+        <span class="logo"><img src="./img/logo.jpg" alt="logo">
+        <a href="" alt="logo">Appello</a>
+      </span>
+      <ul class="header-list">
+        <li><a href="" class="heder-link">Home</a></li>
+        <li><a href="" class="heder-link">Portfolio</a></li>
+        <li><a href="" class="heder-link">Process</a></li>
+        <li><a href="" class="heder-link">Team</a></li>
+        <li><a href="" class="heder-link">Resources</a></li>
         <li><button type="button">Get project quote</button></li>
       </ul>
+    </div>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <h1>Leaders in Software Design & Development</h1>
         <p>
           Establishing a technology company takes a strong software team to
@@ -145,6 +155,26 @@
                 <button type="button">See more</button>
               </li>
           </ul>
+      </section>
+      <section>
+        <h2>We value our relationships</h2>
+        <p>Over the past decade, Appello has established itself as a leader in the IT industry. Along the way, we have formed a number of valued relationships with both clients and business partners.</p>
+        <!-- непонятный контент не картинка -->
+      </section>
+      <section>
+        <h2>Regional partnerships</h2>
+        <ul>
+          <li><p>App Development</p>
+          <h3>Sydney</h3>
+        <img src="" alt=""></li>
+          <li><p>App Development</p>
+          <h3>Brisbane</h3><img src="" alt=""></li>
+          <li><p>App Development</p>
+            <h3></h3><img src="" alt=""></li>
+          <li><p>App Development</p><h3>Adelaide</h3><img src="" alt=""></li>
+          <li><p>App Development</p><h3>Melbourne</h3><img src="" alt=""></li>
+          <li><p>App Development</p><h3>Canberra</h3><img src="" alt=""></li>
+        </ul>
       </section>
     </main>
 
